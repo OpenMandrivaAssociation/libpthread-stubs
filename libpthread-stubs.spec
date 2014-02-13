@@ -18,6 +18,13 @@ BuildRequires:	pkgconfig(xproto)
 %description
 PThread Stubs for XCB.
 
+%package devel
+Summary:	PThread Stubs for XCB
+Group:		Development/X11
+
+%description devel
+PThread Stubs for XCB
+
 %prep
 %setup -q
 
@@ -31,6 +38,6 @@ PThread Stubs for XCB.
 %install
 %makeinstall_std
 
-%files 
+%files devel
 %{_libdir}/pkgconfig/pthread-stubs.pc
 
