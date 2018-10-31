@@ -5,7 +5,7 @@
 Summary:	PThread Stubs for XCB
 Name:		libpthread-stubs
 Version:	0.4
-Release:	1
+Release:	2
 Group:		System/X11
 License:	MIT
 Url:		http://xcb.freedesktop.org
